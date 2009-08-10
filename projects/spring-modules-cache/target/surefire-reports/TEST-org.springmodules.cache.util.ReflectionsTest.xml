@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.025" errors="0" skipped="0" tests="11" name="org.springmodules.cache.util.ReflectionsTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="c:\Program Files\Java\jdk1.6.0_13\jre\bin"/>
+    <property name="java.vm.version" value="11.3-b02"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="AT"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="J:\workspace\spring-modules\projects\spring-modules-cache"/>
+    <property name="java.runtime.version" value="1.6.0_13-b03"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="J:\workspace\spring-modules\projects\spring-modules-cache"/>
+    <property name="java.endorsed.dirs" value="c:\Program Files\Java\jdk1.6.0_13\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="c:\Users\Thomas\AppData\Local\Temp\surefirebooter9216420544010161121.jar"/>
+    <property name="java.io.tmpdir" value="c:\Users\Thomas\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows Vista"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="c:\Program Files\Java\jdk1.6.0_13\jre\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\cygwin\usr\local\bin;C:\cygwin\bin;C:\cygwin\bin;C:\cygwin\usr\X11R6\bin;c:\Program Files (x86)\MiKTeX 2.7\miktex\bin;c:\Windows\system32;c:\Windows;c:\Windows\System32\Wbem;c:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files\Java\jdk1.6.0_13\bin;d:\development\apache-maven-2.2.0\bin;c:\Program Files (x86)\CollabNet Subversion;c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;c:\Program Files (x86)\Common Files\Roxio Shared\9.0\DLLShared\;c:\Program Files (x86)\QuickTime\QTSystem\;c:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\"/>
+    <property name="surefire.test.class.path" value="J:\workspace\spring-modules\projects\spring-modules-cache\target\test-classes;J:\workspace\spring-modules\projects\spring-modules-cache\target\classes;C:\Users\Thomas\.m2\repository\opensymphony\oscache\2.3\oscache-2.3.jar;C:\Users\Thomas\.m2\repository\gigaspaces\gigaspaces-ce\5.2-1706\gigaspaces-ce-5.2-1706.jar;C:\Users\Thomas\.m2\repository\net\sf\ehcache\ehcache\1.6.0\ehcache-1.6.0.jar;C:\Users\Thomas\.m2\repository\tangosol\tangosol-coherence\3.3-rc1\tangosol-coherence-3.3-rc1.jar;C:\Users\Thomas\.m2\repository\com\thoughtworks\xstream\xstream\1.3\xstream-1.3.jar;C:\Users\Thomas\.m2\repository\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;C:\Users\Thomas\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\Thomas\.m2\repository\org\apache\jcs\jcs\1.3\jcs-1.3.jar;C:\Users\Thomas\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar;C:\Users\Thomas\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;C:\Users\Thomas\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar;C:\Users\Thomas\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar;C:\Users\Thomas\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar;C:\Users\Thomas\.m2\repository\concurrent\concurrent\1.0\concurrent-1.0.jar;C:\Users\Thomas\.m2\repository\jboss\jboss-cache\1.4.1.GA\jboss-cache-1.4.1.GA.jar;C:\Users\Thomas\.m2\repository\jboss\jboss-system\4.0.2\jboss-system-4.0.2.jar;C:\Users\Thomas\.m2\repository\jboss\jboss-jmx\4.0.2\jboss-jmx-4.0.2.jar;C:\Users\Thomas\.m2\repository\jgroups\jgroups\2.2.5\jgroups-2.2.5.jar;C:\Users\Thomas\.m2\repository\org\springframework\spring-test\2.5.6\spring-test-2.5.6.jar;C:\Users\Thomas\.m2\repository\junit\junit\4.6\junit-4.6.jar;C:\Users\Thomas\.m2\repository\org\springframework\spring\2.5.6\spring-2.5.6.jar;C:\Users\Thomas\.m2\repository\org\easymock\easymock\2.4\easymock-2.4.jar;C:\Users\Thomas\.m2\repository\org\easymock\easymockclassextension\2.4\easymockclassextension-2.4.jar;C:\Users\Thomas\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Server Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Thomas"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Thomas"/>
+    <property name="java.class.path" value="J:\workspace\spring-modules\projects\spring-modules-cache\target\test-classes;J:\workspace\spring-modules\projects\spring-modules-cache\target\classes;C:\Users\Thomas\.m2\repository\opensymphony\oscache\2.3\oscache-2.3.jar;C:\Users\Thomas\.m2\repository\gigaspaces\gigaspaces-ce\5.2-1706\gigaspaces-ce-5.2-1706.jar;C:\Users\Thomas\.m2\repository\net\sf\ehcache\ehcache\1.6.0\ehcache-1.6.0.jar;C:\Users\Thomas\.m2\repository\tangosol\tangosol-coherence\3.3-rc1\tangosol-coherence-3.3-rc1.jar;C:\Users\Thomas\.m2\repository\com\thoughtworks\xstream\xstream\1.3\xstream-1.3.jar;C:\Users\Thomas\.m2\repository\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;C:\Users\Thomas\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\Thomas\.m2\repository\org\apache\jcs\jcs\1.3\jcs-1.3.jar;C:\Users\Thomas\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar;C:\Users\Thomas\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;C:\Users\Thomas\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar;C:\Users\Thomas\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar;C:\Users\Thomas\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar;C:\Users\Thomas\.m2\repository\concurrent\concurrent\1.0\concurrent-1.0.jar;C:\Users\Thomas\.m2\repository\jboss\jboss-cache\1.4.1.GA\jboss-cache-1.4.1.GA.jar;C:\Users\Thomas\.m2\repository\jboss\jboss-system\4.0.2\jboss-system-4.0.2.jar;C:\Users\Thomas\.m2\repository\jboss\jboss-jmx\4.0.2\jboss-jmx-4.0.2.jar;C:\Users\Thomas\.m2\repository\jgroups\jgroups\2.2.5\jgroups-2.2.5.jar;C:\Users\Thomas\.m2\repository\org\springframework\spring-test\2.5.6\spring-test-2.5.6.jar;C:\Users\Thomas\.m2\repository\junit\junit\4.6\junit-4.6.jar;C:\Users\Thomas\.m2\repository\org\springframework\spring\2.5.6\spring-2.5.6.jar;C:\Users\Thomas\.m2\repository\org\easymock\easymock\2.4\easymock-2.4.jar;C:\Users\Thomas\.m2\repository\org\easymock\easymockclassextension\2.4\easymockclassextension-2.4.jar;C:\Users\Thomas\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="c:\Program Files\Java\jdk1.6.0_13\jre"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="de"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_13"/>
+    <property name="java.ext.dirs" value="c:\Program Files\Java\jdk1.6.0_13\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="c:\Program Files\Java\jdk1.6.0_13\jre\lib\resources.jar;c:\Program Files\Java\jdk1.6.0_13\jre\lib\rt.jar;c:\Program Files\Java\jdk1.6.0_13\jre\lib\sunrsasign.jar;c:\Program Files\Java\jdk1.6.0_13\jre\lib\jsse.jar;c:\Program Files\Java\jdk1.6.0_13\jre\lib\jce.jar;c:\Program Files\Java\jdk1.6.0_13\jre\lib\charsets.jar;c:\Program Files\Java\jdk1.6.0_13\jre\classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="localRepository" value="C:\Users\Thomas\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="0.008" classname="org.springmodules.cache.util.ReflectionsTest" name="testReflectionHashCodeWithCollection"/>
+  <testcase time="0.002" classname="org.springmodules.cache.util.ReflectionsTest" name="testReflectionHashCodeWithJavaBean"/>
+  <testcase time="0" classname="org.springmodules.cache.util.ReflectionsTest" name="testReflectionHashCodeWithMap"/>
+  <testcase time="0" classname="org.springmodules.cache.util.ReflectionsTest" name="testReflectionHashCodeWithObjectArray"/>
+  <testcase time="0.001" classname="org.springmodules.cache.util.ReflectionsTest" name="testReflectionHashCodeWithObjectEqualToNull"/>
+  <testcase time="0" classname="org.springmodules.cache.util.ReflectionsTest" name="testReflectionHashCodeWithPrimitiveArray"/>
+  <testcase time="0" classname="org.springmodules.cache.util.ReflectionsTest" name="testReflectionHashCodeWithPrimitiveWrapper"/>
+  <testcase time="0.001" classname="org.springmodules.cache.util.ReflectionsTest" name="testReflectionHashCodeWithString"/>
+  <testcase time="0.007" classname="org.springmodules.cache.util.ReflectionsTest" name="testReflectionHashCodeWithDate"/>
+  <testcase time="0.001" classname="org.springmodules.cache.util.ReflectionsTest" name="testReflectionHashCodeWithTimestamp"/>
+  <testcase time="0" classname="org.springmodules.cache.util.ReflectionsTest" name="testReflectionHashCodeWithClass"/>
+</testsuite>
